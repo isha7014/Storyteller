@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See 'N' Say Storymaker</title>
+    <!--linking external CSS file-->
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>See 'N' Say Storymaker</h1>
+            <p>Click the buttons to create your own random fun story!</p>
+        </header>
+
+        <!-- Buttons for selection of words -->
+        <section id="buttons">
+            <button id="subjectBtn">Choose a Subject</button>
+            <button id="verbBtn">Choose a Verb</button>
+            <button id="adjectiveBtn">Choose an Adjective</button>
+            <button id="objectBtn">Choose an Object</button>
+            <button id="placeBtn">Choose a Place</button>
+            <button id="speakBtn">Tell the Story</button>
+            <button id="resetBtn">Reset Story</button>
+        </section>
+
+        <section id="story-section">
+            <!--displaying generated story-->
+            <h2>Your Random Story:</h2>
+            <div id="story"></div>
+        </section>
+
+        <footer>
+            <p>Let's create a fun and silly story!</p>
+        </footer>
+    </div>
+    <!--linking external JS file-->
+    <script src="script.js"></script>
+</body>
+</html>
